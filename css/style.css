@@ -7,12 +7,15 @@
     display: flex;
     flex-direction: row;
 }
+.flex-reverse{
+    flex-direction: row-reverse;
+}
 .justify{
     justify-content: space-between;
 }
 header{
-    height: 100px;
-    background-color: orange;
+    padding: 10px 0px;
+    background-color: #ff6900;
 }
 .head-container{
     width: 70%;
@@ -20,23 +23,19 @@ header{
     margin: 0 auto;
     align-items: center;
 }
-.menu{
-    height: 50%;
-    width: calc(100% / 5);
-    background-color: aqua;
-}
 ul{
+    text-align: center;
     list-style: none;
     color: white;
     font-family: 'Cabin', sans-serif;
 }
-.logo{
-    height: 50%;
-    width: calc(100% / 5);
-    background-color: black;
+li{
+    margin: 0 0.5rem;
 }
-.icon{
-    height: 50%;;
-    width: calc(100% / 5);
-    background-color: brown;
+.size-img{
+    width: 15%;
+}
+.size-icon{
+    width: 16%;
+    margin-left: 5px;
 }
