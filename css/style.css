@@ -16,6 +16,7 @@
 header{
     padding: 10px 0px;
     background-color: #ff6900;
+    margin-bottom: 40px;
 }
 .head-container{
     width: 70%;
@@ -38,4 +39,10 @@ li{
 .size-icon{
     width: 16%;
     margin-left: 5px;
+}
+.riga-container{
+    width: 69%;
+    margin: 0 auto;
+    height: 400px;
+    background-color: #ff6900;
 }
