@@ -62,6 +62,12 @@ li{
     height: 90%;
     background-color: yellow;
 }
+.align-center{
+    align-items: center;
+}
+.justify-content{
+    justify-content: center;
+}
 .heart{
     position: absolute;
     width: 100px;
