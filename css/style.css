@@ -43,6 +43,13 @@ li{
 .riga-container{
     width: 69%;
     margin: 0 auto;
-    height: 400px;
+    height: 500px;
     background-color: #ff6900;
+    justify-content:space-between;
+}
+.column{
+    height: 100%;
+    width: 32%;
+    background-color: blue;
+    
 }
