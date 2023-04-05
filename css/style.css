@@ -70,9 +70,12 @@ li{
 }
 .heart{
     position: absolute;
-    width: 100px;
-    height: 100px;
-    background-color: azure;
+    right: 0px;
+    top: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    font-size: x-large;
 }
 .card-bottom{
     width: 100%;
