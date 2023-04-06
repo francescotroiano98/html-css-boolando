@@ -21,6 +21,8 @@
     justify-content: space-around;
 }
 header{
+    position: fixed;
+    z-index: 2;
     padding: 10px 0px;
     background-color: #ff6900;
     margin-bottom: 40px;
