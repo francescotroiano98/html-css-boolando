@@ -20,12 +20,16 @@
 .space-around{
     justify-content: space-around;
 }
+main{
+    padding-top: 90px;
+}
 header{
     position: fixed;
     z-index: 2;
+    right: calc(50% - calc(1583px / 2));
+    width: 1583px;
     padding: 10px 0px;
     background-color: #ff6900;
-    margin-bottom: 40px;
 }
 .head-container{
     width: 70%;
